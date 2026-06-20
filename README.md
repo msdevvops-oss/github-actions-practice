@@ -4,4 +4,4 @@
 
 ## 1. Worflow 
 
-To Create a GitHub workflow you need a folder called `/github/worflows`
+To Create a GitHub workflow you need a folder called `.github/worflows`

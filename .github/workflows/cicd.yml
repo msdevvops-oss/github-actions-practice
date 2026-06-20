@@ -24,8 +24,8 @@ on:
       run: echo "Testing the app"
     
     deploy:
-      needs: 
+      needs: [build,test]
       runs-on: ubuntu-latest
       steps: 
-      -name: "Deploying the case
-      run: echo "Deployed the case"
+        -name: "Deploying on the machine"
+         run: echo "Deployed the code"
